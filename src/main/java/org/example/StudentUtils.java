@@ -33,7 +33,7 @@ public class StudentUtils {
                     avgEvaluations += evaluation;
                 }
                 avgEvaluations /= studentEvaluations.length;
-                if (avgEvaluations <= 3) {
+                if (avgEvaluations < 3) {
                     students.remove(i);
                 }
             }
